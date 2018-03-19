@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/crops"
+    tools:context="com.example.waqarhaider.farm_analyzer.InfoPage">
+
+
+    <EditText
+        android:id="@+id/editText5"
+        android:layout_width="wrap_content"
+        android:layout_height="52dp"
+        android:ems="9"
+        android:inputType="textPersonName"
+        android:text="Developer Information"
+        android:textSize="32dp"
+        android:textStyle="bold"
+
+        tools:layout_editor_absoluteX="26dp"
+        tools:layout_editor_absoluteY="37dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Waqar Haider
+ Vikram
+ Siyuan Tang"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textColor="#FFEFD5"
+
+        tools:layout_editor_absoluteX="95dp"
+        tools:layout_editor_absoluteY="115dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="141dp"
+        android:layout_height="88dp"
+        app:srcCompat="@drawable/bulogo"
+        tools:layout_editor_absoluteX="105dp"
+        tools:layout_editor_absoluteY="340dp" />
+
+</android.support.constraint.ConstraintLayout>
+
+

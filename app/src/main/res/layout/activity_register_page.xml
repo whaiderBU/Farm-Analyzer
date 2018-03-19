@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/crops"
+    tools:context="com.example.waqarhaider.farm_analyzer.RegisterPage">
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="wrap_content"
+        android:layout_height="36dp"
+        android:background="#FFFFFF"
+        android:ems="13"
+        android:hint=" Enter username..."
+        android:inputType="textEmailAddress"
+        tools:layout_editor_absoluteX="52dp"
+        tools:layout_editor_absoluteY="89dp" />
+
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="wrap_content"
+        android:layout_height="31dp"
+        android:background="#FFFFFF"
+        android:ems="13"
+        android:hint=" First name"
+        android:inputType="textPassword"
+        tools:layout_editor_absoluteX="52dp"
+        tools:layout_editor_absoluteY="161dp" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="wrap_content"
+        android:layout_height="31dp"
+        android:background="#FFFFFF"
+        android:ems="13"
+        android:hint=" Last name"
+        android:inputType="textPassword"
+        tools:layout_editor_absoluteX="52dp"
+        tools:layout_editor_absoluteY="228dp" />
+
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="wrap_content"
+        android:layout_height="34dp"
+        android:background="#FFFFFF"
+        android:ems="13"
+        android:hint=" Enter password.."
+        android:inputType="textPassword"
+        tools:layout_editor_absoluteX="52dp"
+        tools:layout_editor_absoluteY="288dp" />
+
+    <EditText
+        android:id="@+id/editText4"
+        android:layout_width="wrap_content"
+        android:layout_height="54dp"
+        android:ems="5"
+        android:inputType="textPersonName"
+        android:text="Welcome..."
+        android:textSize="24dp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="109dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#FFA500"
+        android:text="register"
+        tools:layout_editor_absoluteX="139dp"
+        tools:layout_editor_absoluteY="347dp" />
+
+
+</android.support.constraint.ConstraintLayout>
+
+
